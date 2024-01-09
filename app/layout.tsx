@@ -4,7 +4,7 @@ import './globals.css'
 import { ClerkProvider } from '@clerk/nextjs'
 import { ModalProvider } from '@/components/modal-provider'
 import { ToasterProvider } from './api/toaster-provider'
-import { CrispProvider } from '@/components/crisp-provider'
+// import { CrispProvider } from '@/components/crisp-provider'
 
 const inter = Inter({ subsets: ['latin'] })
 const manrope = Manrope({ subsets: ['latin'] })
@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <CrispProvider />
+        {/* <CrispProvider /> */}
         <body className={manrope.className} suppressHydrationWarning={true}>
           <ModalProvider />
           <ToasterProvider />
