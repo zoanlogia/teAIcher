@@ -68,7 +68,7 @@ const ConversationPage = () => {
 
   return (
     <>
-      <Heading title="Conversation" description="Be lazy and leave the boring stuff to TeAIcher, and it will do the rest" icon={MessageSquare} iconColor="text-violet-500" bgColor="bg-violet-500/10" />
+      <Heading title="Conversation" description="Generate lessons with a simple prompts" icon={MessageSquare} iconColor="text-violet-500" bgColor="bg-violet-500/10" />
       <div className="px-4 lg:px-8">
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="
